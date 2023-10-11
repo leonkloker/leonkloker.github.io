@@ -5,13 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Folio Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <meta http-equiv='cache-control' content='no-cache'> 
-  <meta http-equiv='expires' content='0'> 
-  <meta http-equiv='pragma' content='no-cache'>
+  <title>Leon Kloker</title>
+  <meta name="description" content="Leon Kloker digital portfolio, Computational Mathematics Grad student at Stanford University" >
+  <meta name="keywords" content="Stanford, mathematics, tennis, leadership, Leon, Kloker, graduate, student, 
+  project, internship, intern, software engineering, skills, technology, engineer, engineering, website, personal website, personal site" >
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -22,17 +19,18 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/hover/hover.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Folio
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template Name: Folio - v3.0.0
   * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -41,65 +39,48 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
+  <!-- ======= Navbar ======= -->
+  <nav id="main-nav">
+    <div class="container d-lg-flex justify-content-between align-items-center">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      <!-- Uncomment below if you prefer to use an text logo -->
-      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+      <div class="d-flex justify-content-between">
+        <div class="logo me-auto">
+          <a href="index.html"><img src="assets/img/logo.png" alt="My Signature"></a>
+        </div>
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+      </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-          <!--<li><a class="nav-link  scrollto" href="#journal">Blog</a></li>-->
-          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>--><!-- .navbar -->
+      <ul class="nav-menu list-unstyled">
+        <li><a href="index.html" class="smoothScroll">Home</a></li>
+        <li><a href="#about" class="smoothScroll">About Me</a></li>
+        <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+        <li><a href="#journal" class="smoothScroll">Featured Works</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+      </ul>
 
     </div>
-  </header><!-- End Header -->
+  </nav><!-- End Navbar -->
 
-    <!-- ======= Hero Section ======= -->
-    <div id="hero" class="home">
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="home">
 
-      <div class="container">
-        <div class="hero-content">
-          <h1> <span class="typed"></span></h1>
-          <p class="typed-items" data-typed-person="I'm Leon Kloker">Mathematician, Grad Student, Athlete</p>
-          <p class="typed-item"> Leon Kloker</p>
-  
-          <ul class="list-unstyled list-social">
-            <li><a href="https://instagram.com/thisisleonk" onclick='window.open("https://instagram.com/thisisleonk");return false;'
-              ><i class="ion-social-twitter"></i></a></li>
-            <li><a href="http://github.com/leonkloker" onclick='window.open("http://github.com/leonkloker");return false;' 
-              ><i class="ion-social-github"></i></a></li>
-            <li><a href="http://linkedin.com/in/leonkloker" onclick='window.open("http://linkedin.com/in/leonkloker");return false;'
-              ><i class="ion-social-linkedin"></i></a></li>
-          </ul>
-        </div>
+    <div class="container">
+      <div class="hero-content">
+        <h1> <span class="typed"></span></h1>
+        <p class="typed-items" data-typed-person="I'm Leon Kloker">Mathematician, Grad student, Athlete</p>
+        <p class="typed-item"> Leon Kloker</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://instagram.com/thisisleonk" onclick='window.open("https://twitter.com/thisisleonk");return false;'
+            ><i class="ion-social-twitter"></i></a></li>
+          <li><a href="http://github.com/leonkloker" onclick='window.open("http://github.com/leonkloker");return false;' 
+            ><i class="ion-social-github"></i></a></li>
+          <li><a href="http://linkedin.com/in/leonkloker" onclick='window.open("http://linkedin.com/in/leonkloker");return false;'
+            ><i class="ion-social-linkedin"></i></a></li>
+        </ul>
       </div>
-    </div><!-- End Hero -->
+    </div>
+  </div><!-- End Hero -->
 
   <main id="main">
 
@@ -111,7 +92,7 @@
           <div class="col-lg-4 ">
             <div class="div-img-bg">
               <div class="about-img">
-                <img src="assets/img/me.jpg" class="img-responsive" alt="me">
+                <img src="assets/img/colorado-hike.jpg" class="img-responsive" alt="me">
               </div>
             </div>
           </div>
@@ -119,11 +100,25 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-              <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+              <p class="p-heading">I'm a Computer Science student at Stanford. I strive to position myself with self-starters, experienced mentors, and driven teammates to create real-world impact and deliver high-stakes solutions.</p>
 
+              <u><h3> Stanford University</h3></u>
+                <h3 style="font-size: 1rem"> Bachelor of Science in Computer Science | Minor in Economics | June 2023</h3>
+                <p class="separator"> Relevant Coursework: Programming Methodology & Abstractions, Data Structures & Algorithms, Computer Organization and 
+                  Systems, Full Stack Web Applications </p>
+              <u><h3> Who I Am</h3> </u> 
+              <h3 style="font-size: 1.5rem"> Engineer </h3>
+                <p class="separator"> Lifelong Learning. Dive out of my comfort zone, embrace the growth mindset, and be on the cutting edge of tech.
+              </p>
+              <h3 style="font-size: 1.5rem"> Athlete </h3>
+                <p class="separator"> Perseverence & Teamwork. Persist through tough situations, find solutions under pressure, and be a team player
+                  with great attitude. 
+                </p> 
+              <h3 style="font-size: 1.5rem">Leader </h3> 
+                <p class="separator" > Risk & Initiative. Strive for consistent improvement, take ownership and responsiblity for new initatives, and 
+                  emphasize open communication.
+                </p>
             </div>
-
           </div>
         </div>
       </div>
@@ -133,59 +128,67 @@
     <div id="services">
       <div class="container">
 
-        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
+        <div class="services-carousel owl-theme">
 
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-briefcase"></i>
-                <span>UI/UX DESIGN</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-card-checklist"></i>
-                <span>BRAND IDENTITY</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-bar-chart"></i>
-                <span>WEB DESIGN</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-binoculars"></i>
-                <span>MOBILE APPS</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-brightness-high"></i>
-                <span>Analytics</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="services-block">
-                <i class="bi bi-calendar4-week"></i>
-                <span>PHOTOGRAPHY</span>
-                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-              </div>
-            </div><!-- End testimonial item -->
-
+          <!-- Research -->
+          <div class="services-block">
+            <i class="ion-ios-browsers"></i>
+            <span> RESEARCH </span>
+            <p class="separator"> Published author in international academic journals, given oral presentations at world conferences </p>
           </div>
-          <div class="swiper-pagination"></div>
+
+          <!-- Open Source Contribution -->
+          <div class = "services-block">
+            <i class="ion-social-github"> </i>
+            <span> OPEN SOURCE CONTRIBUTOR</span>
+            <p class="separator"> Contribute to massive open source libraries such as sktime, a time series machine learning framework, from the Alan Turing Institute
+            </p>
+          </div>
+
+          <!-- Front-end Development -->
+          <div class="services-block">
+            <i class="ion-social-javascript"></i>
+            <span> FRONT-END DEV</span>
+            <p class="separator"> Plan, architect and execute multiple websites and web projects using HTML5, CSS3, Javascript and popular front-end frameworks
+              including React.JS and Vega Visualizations
+            </p>
+          </div>
+
+          <!-- Tennis -->
+          <div class="services-block">
+            <i class = "ion-ios-tennisball"></i>
+            <span>TENNIS</span>
+            <p class="separator"> National level player, varsity athlete, 4X Missouri Team State Champion, 1x Individual State Champion </p>
+          </div>
+          
+          <!-- Data Science -->
+          <div class="services-block">
+            <i class="ion-social-python"></i>
+            <span> DATA SCIENCE </span>
+            <p class="separator"> Experience designing advanced machine learning/deep learning networks, and work with python data science libraries 
+              including sktime, tensorflow and keras</p>
+          </div>
+
+          <!-- Creativity -->
+          <div class="services-block">
+            <i class="ion-ios-lightbulb"></i>
+            <span> CREATIVITY </span>
+            <p class="separator"> Run my own blog to share personal thoughts and ideas, publish theoretical and opinion articles on moonshot subjects </p>
+          </div>
+
+          <!-- Gaming -->
+          <div class="services-block">
+            <i class="ion-ios-game-controller-b"></i>
+            <span>ESPORTS</span>
+            <p class="separator"> Avid mobile and console gamer. Perfect pastime to destress and catch up with friends </p>
+          </div>
+
+          <!-- Mobile development -->
+          <div class="services-block">
+            <i class="ion-social-apple"></i>
+            <span>MOBILE DEVELOPMENT</span>
+            <p class="separator"> Learning mobile development in iOS (Swift) and Android (Kotlin) </p>
+          </div>
         </div>
 
       </div>
@@ -207,79 +210,125 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-work">Internships</li>
+              <li data-filter=".filter-side"> Projects</li>
+              <li data-filter=".filter-leadership"> Leadership and Honors</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/meta_logo.png" class="img-fluid" alt="Working as software engineering intern at Meta">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4> Meta </h4>
+              <p>Software Engineer Intern</p>
+              <a href="portfolio/meta.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/sigma_logo.jpg" class="img-fluid" alt="Working as software engineering intern at Sigma Computing, a cloud data warehouse startup">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Sigma Computing</h4>
+              <p>Software Engineer Intern</p>
+              <a href="portfolio/sigmacomputing.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/PercAssist_Logo.png" class="img-fluid" alt="Working as software engineering intern at PercAssist, a biotech startup">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>PercAssist</h4>
+              <p>Software Engineer Intern</p>
+              <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="portfolio/percassist.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/MLH Fellowship.png" class="img-fluid" alt="Working as Open Source Fellow at Major League Hacking (MLH)">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Major League Hacking</h4>
+              <p>Open Source Fellowship</p>
+              <a href="portfolio/mlh.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/RSL_REU.png" class="img-fluid" alt="Interning with Stanford Radiology as undergradate fellow">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Stanford Radiology</h4>
+              <p>Research Intern</p>
+              <a href="portfolio/rslreu.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-side">
+            <img src="assets/img/portfolio/classification.png" class="img-fluid" alt="Adaptable Machine Learning Classifier in Python">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Adaptable Machine Learning Classifier</h4>
+              <p>Project (Python, Jupyter Notebooks)</p>
+              <a href="portfolio/adaptableML.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-leadership">
+            <img src="assets/img/portfolio/club_tennis_logo.png" class="img-fluid" alt="Stanford Club Tennis Practice Coordinator">
+            <div class="portfolio-info">
+              <h4> Stanford Club Tennis</h4>
+              <p> Practice Coordinator </p>
+              <a href="portfolio/clubtennis.html" class = "details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-work">
+            <img src="assets/img/portfolio/Mizzou.png" class="img-fluid" alt="Cardiology intern with Industrial Engineering at Mizzou">
+            <div class="portfolio-info">
+              <h4>University of Missouri Engineering and Cardiology</h4>
+              <p>Research Intern</p>
+              <a href="portfolio/mizzou.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-side">
+            <img src="assets/img/portfolio/allocator.png" class="img-fluid" alt="Implicit and Explicit List Heap Allocator Design">
+            <div class="portfolio-info">
+              <h4>Implicit and Explicit List Heap Allocator</h4>
+              <p>Project (C++, C, Assembly)</p>
+              <a href="portfolio/heapallocator.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-leadership">
+            <img src="assets/img/portfolio/epatt.png" class="img-fluid" alt="Volunteering as tutor and coach at East Palo Alto Tennis and Tutoring">
+            <div class="portfolio-info">
+              <h4> East Palo Alto Tennis and Tutoring</h4>
+              <p> Tutor and Tennis Coach </p>
+              <a href="portfolio/epatt.html" class = "details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-leadership">
+            <img src="assets/img/portfolio/sas.png" class="img-fluid" alt="Elected board member of Stanford South Asian Society">
+            <div class="portfolio-info">
+              <h4> Stanford South Asian Society</h4>
+              <p> Board Member </p>
+              <a href="portfolio/sas.html" class = "details-link" title="More Details"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-leadership">
+            <img src="assets/img/portfolio/bases.png" class="img-fluid" alt="Elected director of Growth for Business Association of Stanford Entrepreneurial Students">
+            <div class="portfolio-info">
+              <h4> Business Association of Stanford Entrepreneurial Students</h4>
+              <p> Director of Growth </p>
+              <a href="portfolio/bases.html" class = "details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
         </div>
-
       </div>
-
     </div><!-- End Portfolio Section -->
 
     <!-- ======= Journal Section ======= -->
@@ -287,23 +336,28 @@
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>journal</h2>
+          <h2>Featured Works</h2>
+          <p> There's no way around hard work. <strong> Embrace it.</strong></p>
+          <p> Roger Federer </p>
         </div>
       </div>
 
       <div class="container">
         <div class="journal-block">
-          <div class="row">
+          <div class="row align-items-center">
 
-            <div class="col-lg-4 col-md-6">
+            
+            <!-- Tennis state championships -->
+            <div class="col-lg-4">
               <div class="journal-info">
 
-                <a href="blog-single.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+                <a  href="https://www.columbiamissourian.com/sports/prep_sports/bouchard-anand-cap-off-careers-with-state-tennis-doubles-title/article_527c9b54-7f4a-11e9-bfec-db6338117930.html" 
+                target= "_blank"><img height ="420em"src="assets/img/portfolio/tennis-serve.jpg" class="img-responsive" alt="img"></a>
 
                 <div class="journal-txt">
 
-                  <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
+                  <h4><a href="">Individual Missouri State Tennis Champion</a></h4>
+                  <p class="separator">Won 4 Team state titles on Varsity team, top 3 high school in country
                   </p>
 
                 </div>
@@ -311,15 +365,18 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <!-- Lunsford Consciousness Presentation -->
+            <div class="col-lg-4">
               <div class="journal-info">
-
-                <a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+                <div class="journal-txt">
+                  <a ><iframe width="400em" height="220em" src="https://www.youtube.com/embed/hREqKZWhHog" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  class="img-responsive"
+                    allowfullscreen></iframe></a>
+                </div>
 
                 <div class="journal-txt">
-
-                  <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
+                  <h4><a href="https://undergrad.stanford.edu/programs/pwr/lunsford-honorees-spring-and-summer-2020" target="_blank">Stanford Lunsford Award Winner 2020</a></h4>
+                  <p class="separator">Based on my oral presentation and research skills on sentient AI and the emergence of artificial consciousness
                   </p>
 
                 </div>
@@ -327,15 +384,17 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <!-- Journal publications -->
+            <div class="col-lg-3 offset-lg-1">
               <div class="journal-info">
 
-                <a href="blog-single.html"><img src="assets/img/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+                <a href="https://www-sciencedirect-com.stanford.idm.oclc.org/science/article/pii/S0167527318330055" target="_blank">
+                  <img height = "420em"src="assets/img/portfolio/IJC.jpg" class="img-responsive" alt="img"></a>
 
                 <div class="journal-txt">
 
-                  <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
+                  <h4><a href="">Published author in International Journal of Cardiology</a></h4>
+                  <p class="separator"> My top cited paper, presented findings at Boston World Congress on Health
                   </p>
 
                 </div>
@@ -361,62 +420,98 @@
                 <h2 class="mb-30">GET IN TOUCH</h2>
 
                 <ul class="contact-details">
-                  <li><span>23 Main, Street</span></li>
-                  <li><span>New York, United States</span></li>
-                  <li><span>+88 01912704287</span></li>
-                  <li><span>example@example.com</span></li>
+                  <li><span>kavinanand77@outlook.com</span></li>
+                  <li><span>Let's connect on socials linked below on the footer!</span></li>
                 </ul>
 
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row gy-3">
+            <div class = "col-lg-6">
+              <form name="contact" method="POST" data-netlify="true">
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label>Your Email: <input type="email" name="email" /></label>
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label>Message: <textarea name="message"></textarea></label>
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <button type="submit">Send</button>
+                  </div>
+                </div>
+                
+              </form>
+
+            </div>
+            
+
+        
+
+            <!-- <div class="col-lg-6">
+              <form data-netlify ="true" name = "contact"action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
 
                   <div class="col-lg-6">
                     <div class="form-group contact-block1">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
                     </div>
                   </div>
 
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 mt-3 mt-md-0">
                     <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validate"></div>
                     </div>
                   </div>
 
-                  <div class="col-lg-12">
+                  <div class="col-lg-12 mt-3">
                     <div class="form-group">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validate"></div>
                     </div>
                   </div>
 
-                  <div class="col-lg-12">
+                  <div class="col-lg-12 mt-3">
                     <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                      <textarea class="form-control" name="message" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validate"></div>
                     </div>
                   </div>
 
-                  <div class="col-lg-12">
+                  <div class="col-lg-12 mb-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
 
-                  <div class="mt-0">
+                  <div class="col-lg-12">
                     <input type="submit" class="btn btn-defeault btn-send" value="Send message">
                   </div>
 
                 </div>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
@@ -424,38 +519,42 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/kavin_anand" onclick='window.open("https://twitter.com/kavin_anand");return false;'
+            ><i class="ion-social-twitter"></i></a></li>
+          <li><a href="http://github.com/kanand77" onclick='window.open("http://github.com/kanand77");return false;'
+            ><i class="ion-social-github"></i></a></li>
+          <li><a href="http://linkedin.com/in/kavin-anand" onclick='window.open("http://linkedin.com/in/kavin-anand");return false;'
+            ><i class="ion-social-linkedin"></i></a></li>
         </ul>
 
       </div>
 
-      <p>&copy; Copyrights Folio. All rights reserved.</p>
+      <!-- <p>&copy; Copyrights Folio. All rights reserved.</p> -->
+      <p>Kavin Anand</p>
 
-      <div class="credits">
+      <!-- <div class="credits"> -->
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      <!-- </div> -->
 
     </div>
   </div><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/typed/typed.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
