@@ -459,7 +459,7 @@ p {
   text-align: left;
   width: 100%;
   display: flex;
-  justify-content: bottom;
+  justify-content: center;
   flex-direction: column;
 }
 
