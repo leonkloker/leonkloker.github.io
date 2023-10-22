@@ -455,11 +455,11 @@ p {
 }
 
 #hero .hero-content {
-  height: 150vh;
+  height: 0vh;
   text-align: left;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: bottom;
   flex-direction: column;
 }
 
