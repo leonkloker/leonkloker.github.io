@@ -246,10 +246,24 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.portfolio-details-slider1', {
     speed: 400,
     loop: true,
     autoplay: false,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  new Swiper('.portfolio-details-slider2', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 7000,
+      disableOnInteraction: false
+    },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
